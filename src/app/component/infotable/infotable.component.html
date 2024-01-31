@@ -1,1 +1,38 @@
-<p>infotable works!</p>
+<div class="app-info">
+  <div class="app-info__description">
+    <div class="app-info__title">
+      <div class="brown">Самая вкусная пицца в мире</div>
+      <div class="yellow">только в Pizza Cheff</div>
+    </div>
+    <div class="app-info__items">
+      <app-item-info
+        title="лучшее тесто"
+        description="Мы создаем тесто только из отборной итальянской муки наивысшего качества"
+        icon="./assets/icons/grain.png"
+      ></app-item-info>
+      <app-item-info
+        title="лучшие повара"
+        description="Пиццы готовят самые профессиональные итальянские повара"
+        icon="./assets/icons/chef.png"
+      ></app-item-info>
+      <app-item-info
+        title="гарантия качества"
+        description="Наша пиццерия получила ножество наград и признаний по всему миру"
+        icon="./assets/icons/quality.png"
+      ></app-item-info>
+      <app-item-info
+        title="отборные рецепты"
+        description="Мы используем рецепты от мировых идеров в изготовлении пиццы"
+        icon="./assets/icons/serving-dish.png"
+      ></app-item-info>
+    </div>
+    <app-cust-button text="Выбрать пиццу"></app-cust-button>
+  </div>
+  <div class="app-info__image">
+    <img
+      class="app-info__img"
+      src="./assets/img/pizza-info-table.jpg"
+      alt="pizza"
+    />
+  </div>
+</div>

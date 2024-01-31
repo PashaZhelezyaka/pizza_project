@@ -1,0 +1,7 @@
+<button [disabled]="disabled"
+        [ngClass]="{ 'disabled-button': disabled }"
+        class="app-button"
+        type="{{ type ? type : undefined }}"
+>
+  {{ text }}
+</button>
